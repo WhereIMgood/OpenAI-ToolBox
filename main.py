@@ -2,10 +2,10 @@ import openai
 import time
 import requests
 import shutil
-import colorama
 import openai_init
 
-openai.api_key = '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'
+your_api_key = input("Enter your openai api key : ")
+openai.api_key = your_api_key
 
 openai_init.init()
 
